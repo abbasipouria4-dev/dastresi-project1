@@ -1,0 +1,207 @@
+.site-footer {
+    max-width: 100%;
+    width: 100%;
+    font-family: shabnam;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.footer-container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer-top {
+    background-color: #E2E2E2;
+    padding: 15px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    gap: 30px;
+    color: #757575;
+    font-size: 18px;
+}
+
+.footer-info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.scroll-top-btn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: black 0px 1px 3px;
+    padding: 8px 15px;
+    border-radius: 12px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: shabnam ,sans-serif;
+    font-size: 14px;
+    color: #757575;
+    transition: all 0.3s ease;
+}
+
+.scroll-top-btn:hover {
+    background-color: #e9ecef;
+}
+.footer-main {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer-col {
+    flex: 1;
+}
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 0.8;
+}
+
+.footer-logo {
+    width: 200px;
+    margin-top: 80px;
+    margin-right: 40px;
+    object-fit: contain;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.footer-about {
+    flex: 2.5;
+}
+
+.footer-title {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #757575;
+    line-height: 2;
+    text-align: justify;
+}
+.footer-links {
+    flex: 0.6;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: black;
+    font-weight: bold;
+}
+.footer-enamad {
+    flex: 0.8;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enamad-logo {
+    width: 120px;
+    object-fit: contain;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.footer-bottom {
+    background-color: #0a5abd;
+    color: #ffffff;
+    font-family: shabnam;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.footer-main-content {
+    display: flex !important;
+    flex-direction: row !important;
+    direction: rtl !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 30px !important;
+}
+
+.footer-col {
+    flex: 1 !important;
+    text-align: right !important;
+}
+
+.footer-brand {
+    order: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.footer-about {
+    order: 2 !important;
+    flex: 2 !important;
+}
+
+.footer-links {
+    order: 3 !important;
+}
+
+.footer-enamad {
+    order: 4 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.footer-top-content {
+    display: flex !important;
+    flex-direction: row !important;
+    direction: rtl !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.scroll-top-btn {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}

@@ -1,0 +1,123 @@
+.login-overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.login-modal {
+    width: 400px;
+    background-color: #F7F8FA;
+    border-radius: 14px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.close-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.close-btn:hover {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+.login-logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.login-logo img {
+    width: 170px;
+    object-fit: contain;
+}
+.login-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #c7c7c7;
+    margin-bottom: 25px;
+}
+.login-title {
+    font-family: shabnam;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    margin-left: 160px;
+}
+.login-desc {
+    font-family: shabnam;
+    font-size: 15px;
+    color: #333;
+    text-align: right;
+    line-height: 1.8;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.login-form {
+    width: 100%;
+}
+.input-label {
+    display: block;
+    font-family: shabnam;
+    font-size: 15px;
+    color: #696969;
+    margin-bottom: 8px;
+    text-align: right;
+}
+.mobile-input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #cacaca;
+    border-radius: 17px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    color: #333;
+    outline: none;
+    margin-bottom: 25px;
+    transition: border-color 0.3s;
+}
+.mobile-input:focus {
+    border-color: #5eb4f4;
+}
+.login-submit-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #80A9DB;
+    color: #ffffff;
+    font-family: shabnam;
+    font-size: 15px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+.login-submit-btn:hover {
+    background-color: #4a9fe0;
+}
+.login-rules {
+    font-family: shabnam;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    a{
+        text-decoration: none;
+        color: #445ae9;
+    }
+}
